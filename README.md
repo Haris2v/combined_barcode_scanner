@@ -10,7 +10,7 @@ of `BarcodeScanner` and `BarcodeScannerController`
 BarcodeScannerWidget(
   controller: _controller,
   onScan: (code) {
-    print("GOT BARCODE =========== ${code.code}");
+    print("GOT BARCODE ======= ==== ${code.code}");
   },
   configuration: const ScannerConfiguration(
     enableFormats: {BarcodeFormat.qr},
